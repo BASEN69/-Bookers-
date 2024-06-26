@@ -19,6 +19,8 @@
   box-sizing: border-box;
 }
 
+
+
 h1{
   margin: 17px 0;
 }
@@ -48,14 +50,51 @@ h2{
   margin-bottom: 10px;
 }
 
-input[type="text"]{
+input[type=text]{
   padding: 1px 2px;
+}
+
+.field_with_errors input, .field_with_errors textarea{
+  
+  border:solid 2px red;
 }
 
 textarea{
   padding: 2px;
 }
 
+
+  
+
+
 input[type="submit"]{
   padding: 1px 6px;
+}
+
+.show-text{
+  margin: 33px;
+}
+
+.show-text span{
+  font-weight: bold;
+}
+
+.error{
+  width: 45%;
+  margin: 0 0 20px;
+  background-color: #cccccc;
+  border: solid 1px red;
+}
+
+.error-message{
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  color: white;
+  background-color: #cc0000;
+}
+
+.error-text{
+  margin: 33px;
+  padding: 0 0 0 40px;
+  
 }
