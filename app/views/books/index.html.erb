@@ -38,13 +38,15 @@
     
     <%= form_with model: @book do |f| %>
     <div class="aria">
-      <p class="input-title">Title</p>
-      <%= f.text_field :title %>
+      <%= f.label :title, class:"label-name" %>
+      <%= f.text_field :title, class:"input-area" %>
     </div>
     <div class="aria">
-      <p class="textarea">Body</p>
-      <%= f.text_area :body %>
+      <%= f.label :Body, class:"label-name" %>
+      <%= f.text_area :body, class:"input-area" %>
     </div>
+    
+      
     <div class="aria">
       <%= f.submit 'Create Book' %>
     </div>
@@ -54,3 +56,13 @@
 
 
 </html>
+       
+      
+        
+      
+    
+    
+      
+    
+     
+      
